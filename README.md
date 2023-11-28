@@ -1,17 +1,6 @@
 # Assential Algorithms
 
 
-## Goal:
-
-### Make essential algorithms available for free consultation
-
-
-## Targets:
-
-### Anyone who wants to know or learn about these algorithms
-
-
-
 ## Ordination:
 
 ### A sorting algorithm is a set of instructions or rules designed to organize elements into a specific order. Typically, these elements are  provided in a list, array, or sequence, and the ordering can be either ascending or descending, depending on the requirements.
@@ -37,9 +26,9 @@
 
 ### Key components of a recursive function include:
 
-    Base Case: This is the condition that determines when the recursion should stop. It represents the simplest form of the problem that can be directly solved without further recursion.
+### Base Case: This is the condition that determines when the recursion should stop. It represents the simplest form of the problem that can be directly solved without further recursion.
 
-    Recursive Case: This is where the function calls itself with a modified version of the original problem. The goal is to reduce the problem toward the base case.
+### Recursive Case: This is where the function calls itself with a modified version of the original problem. The goal is to reduce the problem toward the base case.
 
 ### A classic example of recursion is the computation of the factorial of a number. The factorial of a non-negative integer nn, denoted as n!n!, is the product of all positive integers up to nn. 
 
@@ -48,42 +37,77 @@
 ## Search
 
 ### Linear Search:
-        Sequentially searches through a list of elements until the desired element is found.
-        Simple but can be inefficient for large datasets.
+### Sequentially searches through a list of elements until the desired element is found.
+### Simple but can be inefficient for large datasets.
 
 ### Binary Search:
-        Works only on sorted lists.
-        Compares the target element with the middle element of the list and eliminates half of the elements in each iteration.
-        Very efficient for large sorted datasets.
-
+### Works only on sorted lists.
+### Compares the target element with the middle element of the list and eliminates half of the elements in each iteration.
+### Very efficient for large sorted datasets.
+###
 ### Depth-First Search (DFS):
-        Used to explore graphs and trees.
-        Starts at a node and explores as far as possible before backtracking.
-        Can be implemented recursively.
+### Used to explore graphs and trees.
+### Starts at a node and explores as far as possible before backtracking.
+### Can be implemented recursively.
 
 ### Breadth-First Search (BFS):
-        Another algorithm for graph and tree traversal.
-        Starts at a node and explores all its neighbors before moving on to the neighbors' neighbors.
-        Typically implemented using a queue.
+### Another algorithm for graph and tree traversal.
+### Starts at a node and explores all its neighbors before moving on to the neighbors' neighbors.
+### Typically implemented using a queue.
 
 ### A Algorithm:*
-        Used in pathfinding problems in graphs, such as finding the shortest path from one point to another.
-        Combines breadth-first search with a heuristic to prioritize certain paths.
-        Very efficient for pathfinding problems.
+### Used in pathfinding problems in graphs, such as finding the shortest path from one point to another.
+### Combines breadth-first search with a heuristic to prioritize certain paths.
+### Very efficient for pathfinding problems.
 
 ### Depth-Limited Search (DLS):
-        Similar to depth-first search but limits the depth of exploration.
-        Prevents problems with unlimited depth in depth-first search.
+### Similar to depth-first search but limits the depth of exploration.
+### Prevents problems with unlimited depth in depth-first search.
 
 ### Bidirectional Search:
-        Conducts simultaneous searches from the initial and final states, seeking a meeting point.
-        Can be more efficient in some cases compared to unidirectional search.
+### Conducts simultaneous searches from the initial and final states, seeking a meeting point.
+### Can be more efficient in some cases compared to unidirectional search.
 
 ### Each search algorithm has its own strengths and weaknesses, and the choice of the best algorithm depends on the specific context of the problem being solved.
 
 
 
-### >>> String
+## String
+
+### String Search Algorithm:
+### Finding the occurrence of a pattern in a string.
+### Examples include algorithms like Naive Search, Knuth-Morris-Pratt (KMP) Algorithm, and Boyer-Moore Algorithm.
+
+### Longest Common Subsequence (LCS) Algorithm:
+### Finding the longest common subsequence between two sequences.
+## Can be used to compare similarities between two strings.
+
+### Edit Distance Algorithm:
+### Measuring the difference between two strings, represented by the minimum number of edit operations (insertion, removal, substitution) needed to convert one string into another.
+### The Wagner-Fisher algorithm is an example.
+
+### Rabin-Karp Algorithm:
+### Used to find patterns in text.
+### Utilizes hash functions to quickly check if a pattern occurs at a particular position in the string.
+
+### Knuth-Morris-Pratt (KMP) Algorithm:
+### An efficient pattern-searching algorithm.
+### Uses precomputed information about the pattern to avoid unnecessary comparisons.
+
+### Boyer-Moore Algorithm:
+### Another efficient pattern-searching algorithm.
+### Explores information about the last occurrence of each character in the pattern to skip sections of the input string during the search.
+
+## Data Compression Algorithm (e.g., Lempel-Ziv-Welch):
+## Reducing the size of a string by representing repetitions of substrings with shorter codes.
+## Used in data compression.
+
+## Manacher's Algorithm:
+## Finding the longest palindromic substring in a string.
+## Efficient for finding all palindromes in a string.
+
+## These algorithms play crucial roles in various applications, from pattern searching to data compression and natural language processing. The choice of the algorithm depends on the specific requirements of the problem at hand.
+
 ### >>> Mathematics
 ### >>> Arrays
 ### >>> Lists

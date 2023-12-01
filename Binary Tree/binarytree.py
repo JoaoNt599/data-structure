@@ -105,6 +105,13 @@ if __name__ == "__main__":
     tree.inorder()
 
 
+    print("Before inversion:")
+    tree.inorder()
+    tree.invert()
+    print("After inversion:")
+    tree.inorder()
+
+
     result = tree.breadth_first_search(5)
     if result:
         print("Value 5 found in the tree.")

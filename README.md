@@ -1,5 +1,10 @@
-# Assential Algorithms
+# Data Structure (in progress)
 
+## Repository dedicated to helping those who are starting out in programming, or need to review and reinforce their knowledge with data structures.
+
+## Most of the examples presented were based on the books: Self-Taught Computer Scientist, by Cory Althoff, and Python and Django, by Francisco Marcelo.
+
+<img src="readme_files/b1.jpg">, <img src="readme_files/b2.jpg">
 
 ## Ordination:
 
